@@ -1,0 +1,1 @@
+python run_recbole.py --model=RecDCL --dataset=Beauty --learning_rate=1e-3 --weight_decay=1e-7 --encoder=LightGCN --train_batch_size=256 --embedding_size 2048 --all_bt_coeff 1 --bt_coeff 0.01 --polyc 1e-7 --degree 4 --poly_coeff 0.2 --momentum 0.1 --mom_coeff 5 
