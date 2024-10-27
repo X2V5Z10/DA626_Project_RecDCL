@@ -1,7 +1,7 @@
 import argparse
 import wandb
 from recbole.quick_start import run_recbole
-import datetime
+from datetime import datetime
 
 if __name__ == '__main__':
     wandb.login(key="b0a8278f5dac242213ceb41254ab62575cf95f34")
